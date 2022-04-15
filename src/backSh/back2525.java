@@ -22,7 +22,7 @@ public class back2525 {
         
         
         System.out.println(hour + " " + minute);
-        System.out.println(ovenmin);
+
 	}
 
 }
