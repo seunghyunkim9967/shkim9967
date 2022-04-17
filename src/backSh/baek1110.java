@@ -11,30 +11,30 @@ public class baek1110 {
 //		그 다음, 주어진 수의 가장 오른쪽 자리 수와 앞에서 구한 합의 가장 오른쪽 자리 수를 이어 붙이면 
 //		새로운 수를 만들 수 있다. 다음 예를 보자.
 		
-		Scanner scan = new Scanner(System.in);
-		int A = scan.nextInt();
-		
-		if (A < 10) {
-			A = A * 10;
-		}
-		
-		int B = A / 10;
-		int C = A % 10;
-		int E = 0;
-		//System.out.println("B = " + B + "C = " + C);
-		
-		for (int i = 0; i < 99; i++) {
-			int D = B + C;
-			
-			if (A == E) {
-				System.out.println(i);
-				break;
-			}
-			B = C;
-			C = D % 10;
-			//System.out.println("B = " + B + "C = " + C + "D = " + D );
-			E = B * 10 + C;
-		}
+//		Scanner scan = new Scanner(System.in);
+//		int A = scan.nextInt();
+//		
+//		if (A < 10) {
+//			A = A * 10;
+//		}
+//		
+//		int B = A / 10;
+//		int C = A % 10;
+//		int E = 0;
+//		//System.out.println("B = " + B + "C = " + C);
+//		
+//		for (int i = 0; i < 99; i++) {
+//			int D = B + C;
+//			
+//			if (A == E) {
+//				System.out.println(i);
+//				break;
+//			}
+//			B = C;
+//			C = D % 10;
+//			//System.out.println("B = " + B + "C = " + C + "D = " + D );
+//			E = B * 10 + C;
+//		}
 //		int D = B + C;
 //		System.out.println("D = " + D);
 //		//새로운 수
